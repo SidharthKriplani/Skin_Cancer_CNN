@@ -60,7 +60,10 @@ Train the model for ~30 epochs
 Write your findings after the model fit, see if the issues are resolved or not. 
 
 
+
+
 Evaluation Rubric (Stage, Weightage, Meets Expectations)
+
 Data Reading/Data Understanding	      
 5               
 Defined the path for both train and test images from dataset.
