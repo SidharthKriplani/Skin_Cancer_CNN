@@ -60,25 +60,51 @@ Train the model for ~30 epochs
 Write your findings after the model fit, see if the issues are resolved or not. 
 
 
-Stage	                                Weightage	      Meets Expectations
-Data Reading/Data Understanding	      5               Defined the path for both train and test images from dataset.
-Dataset creation	                    10	            Created train & validation dataset from the train directory with a batch size of 32 .
-                                                      Resized images to 180*180.(10%)
-Dataset visualisation           	    5 	            Created a code to visualize one instance of all the nine classes present in the dataset 
-Model Building & training	            15	            Created a CNN model, which can accurately detect 9 classes present in the dataset.
-                                                      Defined appropriate optimiser and loss function for model training.
-                                                      Trained the model for ~20 epochs.
-                                                      Explained the findings after the model fit with evidence if the model overfits or underfits.
-Data augmentation	                    10	            Chose an appropriate data augmentation strategy to resolve underfitting/overfitting 
-Model Building & training	            15	            Created a CNN model, which can accurately detect 9 classes present in the dataset.  
-                                                      Defined appropriate optimiser and loss function for model training.
-                                                      Trained the model for ~20 epochs.
-                                                      Explained the findings after the model fit with evidence if the earlier issue is resolved or not.
-Class distribution	                  15              Examined the current class distribution in the training dataset & explained the following:
-                                                        Which class has the least number of samples?
-                                                        Which classes dominate the data in terms of the proportionate number of samples?
-Handling class imbalances	            10	            Rectified class imbalances present in the training dataset with Augmentor library
-Model Building & training	            15	            Created a CNN model, which can accurately detect 9 classes present in the dataset.
-                                                      Defined appropriate optimiser and loss function for model training.
-                                                      Trained the model for ~20 epochs.
-                                                      Explained the findings after the model fit with evidence if the issues are resolved or not.
+Evaluation Rubric (Stage, Weightage, Meets Expectations)
+Data Reading/Data Understanding	      
+5               
+Defined the path for both train and test images from dataset.
+
+Dataset creation	                    
+10	            
+Created train & validation dataset from the train directory with a batch size of 32 .
+Resized images to 180*180.(10%)
+
+Dataset visualisation           	    
+5 	            
+Created a code to visualize one instance of all the nine classes present in the dataset 
+
+Model Building & training	            
+15	            
+Created a CNN model, which can accurately detect 9 classes present in the dataset.
+Defined appropriate optimiser and loss function for model training.
+Trained the model for ~20 epochs.
+Explained the findings after the model fit with evidence if the model overfits or underfits.
+
+Data augmentation	                    
+10	            
+Chose an appropriate data augmentation strategy to resolve underfitting/overfitting 
+
+Model Building & training	            
+15	            
+Created a CNN model, which can accurately detect 9 classes present in the dataset.  
+Defined appropriate optimiser and loss function for model training.
+Trained the model for ~20 epochs.
+Explained the findings after the model fit with evidence if the earlier issue is resolved or not.
+
+Class distribution	                  
+15              
+Examined the current class distribution in the training dataset & explained the following:
+Which class has the least number of samples?
+Which classes dominate the data in terms of the proportionate number of samples?
+
+Handling class imbalances	            
+10	            
+Rectified class imbalances present in the training dataset with Augmentor library
+
+Model Building & training	            
+15	            
+Created a CNN model, which can accurately detect 9 classes present in the dataset.
+Defined appropriate optimiser and loss function for model training.
+Trained the model for ~20 epochs.
+Explained the findings after the model fit with evidence if the issues are resolved or not.
